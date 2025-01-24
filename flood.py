@@ -18,8 +18,8 @@ model = data['model']
 x = data['x']
 
 def show_page():
-    st.write("<h3 style='text-align: center; color: blue;'>پیش بینی سیل خیز بودن منطقه 🌧️</h3>", unsafe_allow_html=True)
-    st.write("<h6 style='text-align: center; color: black;'>Robo-Ai.ir طراحی شده و توسعه</h6>", unsafe_allow_html=True)
+    st.write("<h4 style='text-align: center; color: blue;'>پیش بینی سیل خیز بودن منطقه 🌧️</h4>", unsafe_allow_html=True)
+    st.write("<h6 style='text-align: center; color: black;'>Robo-Ai.ir طراحی و توسعه</h6>", unsafe_allow_html=True)
     st.link_button("Robo-Ai بازگشت به", "https://robo-ai.ir")
     container = st.container(border=True)
     container.write("<h6 style='text-align: right; color: gray;'>پیش بینی سیل خیز بودن هر منطقه بر اساس توپوگرافی با هوش مصنوعی ☂️</h6>", unsafe_allow_html=True)
